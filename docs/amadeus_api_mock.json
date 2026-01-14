@@ -1,0 +1,68 @@
+{
+  "agency_profile": {
+    "agency_id": "CL-SANTIAGO-001",
+    "name": "Viajes Andina Corporate",
+    "region": "LATAM_CHILE",
+    "accreditation_level": "IATA_FULL"
+  },
+  "financial_snapshot": {
+    "timestamp": "2025-01-14T09:00:00Z",
+    "current_cash_balance_usd": 8500.00,
+    "bsp_payment_due_date": "2025-01-17T17:00:00Z",
+    "bsp_total_debt_usd": 50000.00
+  },
+  "confirmed_future_bookings": {
+    "summary": {
+      "total_receivables_usd": 65000.00,
+      "booking_count": 23,
+      "average_payout_days": 45
+    },
+    "pnr_samples": [
+      {
+        "pnr_locator": "XJ59LM",
+        "airline": "LA",
+        "airline_name": "LATAM Airlines",
+        "route": "SCL-MIA",
+        "ticket_status": "ISSUED",
+        "invoice_value_usd": 12500.00,
+        "flight_date": "2025-02-10"
+      },
+      {
+        "pnr_locator": "AA982K",
+        "airline": "AA",
+        "airline_name": "American Airlines",
+        "route": "SCL-DFW",
+        "ticket_status": "FLOWN",
+        "invoice_value_usd": 18000.00,
+        "flight_date": "2025-01-10"
+      },
+      {
+        "pnr_locator": "IB4452",
+        "airline": "IB",
+        "airline_name": "Iberia",
+        "route": "SCL-MAD",
+        "ticket_status": "ISSUED",
+        "invoice_value_usd": 15000.00,
+        "flight_date": "2025-02-15"
+      },
+      {
+        "pnr_locator": "AF402P",
+        "airline": "AF",
+        "airline_name": "Air France",
+        "route": "SCL-CDG",
+        "ticket_status": "ISSUED",
+        "invoice_value_usd": 11000.00,
+        "flight_date": "2025-03-01"
+      },
+      {
+        "pnr_locator": "CM2201",
+        "airline": "CM",
+        "airline_name": "Copa Airlines",
+        "route": "SCL-PTY",
+        "ticket_status": "ISSUED",
+        "invoice_value_usd": 8500.00,
+        "flight_date": "2025-01-20"
+      }
+    ]
+  }
+}

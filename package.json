@@ -1,0 +1,27 @@
+{
+    "name": "amadeus-liquidity-agent",
+    "version": "1.0.0",
+    "description": "Autonomous CFO for Travel Agencies - Amadeus Genesis Hackathon",
+    "main": "index.js",
+    "scripts": {
+        "compile": "hardhat compile",
+        "deploy:testnet": "hardhat run scripts/deploy.js --network amadeus_testnet",
+        "deploy:ip": "hardhat run scripts/deploy.js --network amadeus_ip_8545",
+        "deploy:diagnostic": "hardhat run scripts/deploy_diagnostic.js --network amadeus_ip_8545",
+        "deploy:auto": "hardhat run scripts/deploy_diagnostic.js --network amadeus_ip_auto",
+        "test": "hardhat test"
+    },
+    "keywords": [
+        "amadeus",
+        "defi",
+        "travel",
+        "blockchain"
+    ],
+    "author": "Sentinel-AI Team",
+    "license": "MIT",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "dotenv": "^16.3.1",
+        "hardhat": "^2.19.0"
+    }
+}
